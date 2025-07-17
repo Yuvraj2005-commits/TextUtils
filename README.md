@@ -1,70 +1,151 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🔤 TextUtils
 
-## Available Scripts
+**TextUtils** is a modern, user-friendly React-based text utility application designed to help users analyze and manipulate text with ease. Whether you're editing a document or analyzing content, this tool provides essential features in a clean interface with support for dark mode.
 
-In the project directory, you can run:
+![TextUtils Screenshot]
+(./Screenshot 2025-07-17 195827.png)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+>soon...
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+- 🌗 **Dark Mode** toggle for a comfortable reading/editing experience.
+- 🔠 **Text Transformations**:
+  - Convert to **Uppercase**
+  - Convert to **Lowercase**
+  - **Capitalize** the text
+  - **Reverse** the text
+  - **Remove Extra Spaces**
+  - **Clear** the entire text field
+- 📊 **Text Summary**:
+  - Word count
+  - Character count
+  - Estimated reading time
+- 👀 **Live Preview** of your edited text
+- ⚛️ Built with **React JS** and styled using **Bootstrap**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🖼️ Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ✅ Light Mode  
+![Light Mode](./light-mode-screenshot.png)
 
-### `npm run eject`
+### 🌙 Dark Mode  
+![Dark Mode](./dark-mode-screenshot.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> _Make sure to add these images to your project folder and update the paths accordingly._
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧱 Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React.js** (Functional Components & Hooks)
+- **JavaScript (ES6+)**
+- **Bootstrap 5** for styling
+- **React Router** (for routing between `Home` and `About`)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📁 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+textutils/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── TextForm.js
+│   │   └── About.js
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Installation and Setup Instructions
 
-### Analyzing the Bundle Size
+### 📦 Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Node.js and npm installed on your machine.
 
-### Making a Progressive Web App
+### 🔧 Steps to run locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
 
-### Advanced Configuration
+# Move into the directory
+cd textutils
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Install dependencies
+npm install
 
-### Deployment
+# Start the development server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The app should now be running at [http://localhost:3000](http://localhost:3000)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 💡 Usage
+
+1. Enter any text into the textarea.
+2. Click on the transformation buttons to modify the text.
+3. Toggle dark/light mode using the switch in the top-right corner.
+4. View your text summary and preview below the buttons.
+
+---
+
+## 🧠 Learnings
+
+This project helped understand and apply:
+- React state management using `useState`
+- Component-based architecture
+- Props and event handling
+- Conditional rendering and themes
+- Basic text processing in JavaScript
+
+---
+
+## 🧪 Future Enhancements
+
+- Export/download text as `.txt` or `.pdf`
+- Add spell check and grammar correction
+- Count vowels, consonants, or paragraphs
+- Add support for multiple languages
+- Responsive mobile optimization improvements
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+
+---
+
+## 🙌 Acknowledgements
+
+- [React](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [FontAwesome](https://fontawesome.com/)
+
+---
+
+---
+
+> _Built with ❤️ using React.js_
