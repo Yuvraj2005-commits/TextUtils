@@ -146,12 +146,15 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
+<<<<<<< HEAD
 ## 🔗 Connect with Me
 
 - 💼 [LinkedIn](https://linkedin.com/)
 - 🐦 [Twitter](https://twitter.com/)
 - 🌐 [Portfolio](https://yourportfolio.com/)
 
+=======
+>>>>>>> df135163172e2949bdf726cf40847e4cc0d882c0
 ---
 
 > _Built with ❤️ using React.js_
